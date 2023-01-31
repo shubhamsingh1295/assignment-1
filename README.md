@@ -1,4 +1,4 @@
-# assignment-1
+# Assignment-1
 
 ## Create RESTFUL API with expressJS.
 
