@@ -2,15 +2,25 @@
 
 ## Create RESTFUL API with expressJS.
 
-Model - Employee and Department (Take column name as per your needs).
-
-Database - sqlite3.
+Database - PostgreSQL.
 
 ORM - Sequelize.
 
-Association - Employee belongs to one Department.
+The application performs basic banking operations like money transfers and show the account balance.
 
-Do the CRUD operations for Employees and Department and try to follow the Restful standards.
+- Build a endpoints for CRUD operations of the user.
+- Build a endpoint for transfer funds between accounts. 
+- Build a endpoint for check the balance of the User's account.
+- Build a endpoint for show latest 5 transactions of particular user.
+- Build a endpoint for deposit money into User account.
+- Build a endpoint for withdraw money from User account.
+
+### Associations 
+- User has one account.
+- Account has many transactions.
+
+Put all the possible validations.
+
 
 ## Reference docs.
 
